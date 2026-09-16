@@ -1,0 +1,936 @@
+<!-- 
+Template Design by StyleShout
+Licensed under the MIT License
+https://opensource.org/licenses/MIT
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Hussein Rizk Portfolio</title>
+    <meta name="description" content="Automation & Control Systems Engineer portfolio">
+    <meta name="author" content="Hussein Rizk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- Scripts -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+
+
+</head>
+
+<body id="top" class="ss-preload">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                    <li><a class="smoothscroll" href="#projects">Projects</a></li>
+                    <li><a class="smoothscroll" href="#certifications">Certifications</a></li>
+                    <li><a class="smoothscroll" href="#gallery">Gallery</a></li>
+                    <li><a class="smoothscroll" href="#contact">Let's Talk</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header>
+
+    <!-- Hero Section with Canvas for Comet Effect -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+
+        <!-- First Layer: Sky Background Image -->
+        <div class="s-hero__sky rellax" data-rellax-speed="-7"></div>
+
+        <!-- Second Layer: Canvas for Shooting Stars Animation -->
+        <canvas id="shootingStarsCanvas"></canvas>
+
+        <!-- Third Layer: Mountains Image -->
+        <div class="s-hero__mountains rellax" data-rellax-speed="-7"></div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+                <div class="s-hero__content-about">
+                    <h1>I'm Hussein Rizk</h1>
+                    <h3>
+                        I'm an <span>automation engineer</span> with expertise in <span>PLC programming</span>, <span>industrial
+                            control systems</span>, and <span>robotics</span>.
+                        I design and troubleshoot control solutions with a focus on <span>embedded systems</span> and
+                        autonomous technologies.
+                        Let’s <a class="smoothscroll" href="#about">start scrolling</a>
+                        to learn more <a class="smoothscroll" href="#about">about me</a>.
+                    </h3>
+
+                    <!-- TODO: replace with Hussein's real LinkedIn/GitHub URLs -->
+                    <div class="s-hero__content-social">
+                        <a href="#" title="Add LinkedIn URL"><i class="fab fa-linkedin"
+                                aria-hidden="true"></i></a>
+                        <a href="#" title="Add GitHub URL"><i class="fab fa-github"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z">
+                        </path>
+                    </svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="s-about target-section">
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <!-- TODO: replace with Hussein's photo -->
+                <img class="s-about__pic" src="images/avatars/profile-pic.jpg" alt="">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                    I am an M.Sc. Autonomy Technologies student at FAU with a B.Sc. in Mechatronics Engineering and
+                    hands-on experience in industrial automation, control systems, embedded systems, and robotics. I
+                    work with Siemens PLCs and TIA Portal, MATLAB/Simulink, ROS, SolidWorks, Arduino, and Raspberry
+                    Pi, and I'm particularly interested in autonomous and robotic systems that combine perception,
+                    control, embedded hardware, and AI.
+                </p>
+                <hr>
+                <div class="row s-about__content-bottom">
+                    <div class="column w-1000-stack">
+                        <h3>Contact Details</h3>
+                        <!-- TODO: add phone/location if you want them shown -->
+                        <p>
+                            Hussein Rizk <br>
+                            Erlangen, Germany <br>
+                            <br>
+                            <a href="mailto:hussein.ahmed.rizk@gmail.com">hussein.ahmed.rizk@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="column w-1000-stack">
+                        <!-- <a href="#0" class="btn btn--download">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
+                            Download CV
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="s-resume target-section">
+        <!-- Work Experience -->
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Career</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3"><a href="#" title="Add company URL">BEDO – Innovating Education</a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>Engineering Internship</span>
+                            <span class="resume-block__header-date">
+                                Jul. 2025 - Oct. 2025
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                        Supported research and development activities in an engineering-focused environment,
+                        contributing to technical research, evaluation of engineering concepts, and project
+                        development.
+                    </p>
+                </div>
+
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3"><a href="#" title="Add company URL">HA Consulting Group</a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>Automation Engineer</span>
+                            <span class="resume-block__header-date">
+                                May 2025 - Jun. 2025
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                        Applied PLC programming and control-system principles in industrial automation projects using
+                        Siemens platforms and engineering simulation tools. Developed and tested control logic for
+                        automation tasks, including sequencing, interlocks, motor-control functions, and
+                        sensor-based operations. Supported troubleshooting and validation of automation systems
+                        during development and testing.
+                    </p>
+                </div>
+
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3"><a href="#" title="Add company URL">HA Consulting Group</a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>Automation Engineer Intern</span>
+                            <span class="resume-block__header-date">
+                                Oct. 2024 - Feb. 2025
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                        Gained hands-on experience in PLC programming, industrial control logic, motor-control
+                        systems, and automation-system design. Developed and tested automation applications using
+                        Siemens PLCs, TIA Portal, and simulation tools, applying classic control concepts while
+                        troubleshooting and validating control-system behavior.
+                    </p>
+                </div>
+
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3"><a href="#" title="Add company URL">Excelerate</a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>Prompt Engineering Research & Integration Intern</span>
+                            <span class="resume-block__header-date">
+                                Nov. 2024 - Dec. 2024
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                        Researched prompt-engineering methods and evaluated approaches for integrating
+                        generative-AI tools into practical workflows. Tested and refined prompts to improve the
+                        consistency, relevance, and usability of AI-generated outputs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Education -->
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Education</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3"><a href="https://www.fau.eu/" target="_blank">Friedrich-Alexander University of
+                                Erlangen-Nuremberg (FAU)</a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>M.Sc. Autonomy Technologies</span>
+                            <span class="resume-block__header-date">
+                                Oct. 2025 - Present
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3"><a href="#" title="Add university URL">Mansoura University</a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>B.Sc. Mechatronics Engineering &mdash; Final grade: Very Good</span>
+                            <span class="resume-block__header-date">
+                                Oct. 2020 - Jan. 2025
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Skills</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <ul class="skill-bars-fat">
+                    <li>
+                        <div class="progress percent90"></div><strong>PLC Programming (Siemens S7-300/S7-1200, TIA Portal)</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent85"></div><strong>Ladder Logic / STL / SCL</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent80"></div><strong>MATLAB / Simulink</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent80"></div><strong>SolidWorks / CAD</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent75"></div><strong>Python & Embedded Systems (Arduino, Raspberry Pi)</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent70"></div><strong>ROS & Robotics</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Languages</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <ul class="skill-bars-fat">
+                    <li>
+                        <div class="progress percent100"></div><strong>Arabic — Native</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent90"></div><strong>English — C1</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent55"></div><strong>German — B1</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (originally "Publications" — repurposed for Hussein as Projects & Certifications) -->
+    <!--
+    <section id="publications" class="s-portfolio target-section">
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>Publications</h3>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="column">
+                <div class="folio-item">
+                    <h5>PerCG: Annotating and Predicting Common Ground in Persian Conversations (In Progress)</h5>
+                    <p>Ahmadi S. F., Kamani A., Boreshban, Y., Mirroshandel S. A. A comprehensive dataset for NLP tasks
+                        in conversational AI.</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="https://aclanthology.org/2023.emnlp-demo.24" target="_blank">RobustQA: A Framework for
+                            Adversarial Text Generation Analysis on Question Answering Systems (2023)</a></h5>
+                    <p>Boreshban, Y., Kamani A., et al. Published at the Conference on Empirical Methods in Natural
+                        Language Processing.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="s-portfolio target-section">
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>Projects</h3>
+            </div>
+        </div>
+
+        <!-- TODO: swap these placeholder cover/photo SVGs for real project photos -->
+        <div class="row collapse block-large-1-3 block-medium-1-2 block-tab-1-2 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-proj-carty" class="folio-item__thumb folio-item__thumb--cover">
+                    <img src="images/projects/carty-1.svg" alt="Carty — AI-Powered Follow-Me Assistive Cart placeholder cover image">
+                    <span class="folio-item__caption">Carty — AI-Powered Follow-Me Assistive Cart</span>
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-proj-vawt" class="folio-item__thumb folio-item__thumb--cover">
+                    <img src="images/projects/vawt-1.svg" alt="Vertical Axis Wind Turbine placeholder cover image">
+                    <span class="folio-item__caption">Vertical Axis Wind Turbine (VAWT)</span>
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-proj-carwash" class="folio-item__thumb folio-item__thumb--cover">
+                    <img src="images/projects/car-wash-1.svg" alt="Smart PLC-Powered Automated Car Wash placeholder cover image">
+                    <span class="folio-item__caption">Smart PLC-Powered Automated Car Wash</span>
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-proj-classiccontrol" class="folio-item__thumb folio-item__thumb--cover">
+                    <img src="images/projects/classic-control-plc-1.svg" alt="Classic Control & PLC Diploma placeholder cover image">
+                    <span class="folio-item__caption">Classic Control & PLC Diploma</span>
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-proj-mechatronic" class="folio-item__thumb folio-item__thumb--cover">
+                    <img src="images/projects/mechatronic-sim-1.svg" alt="Multi-Domain Mechatronic Systems Simulation placeholder cover image">
+                    <span class="folio-item__caption">Multi-Domain Mechatronic Systems Simulation</span>
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-proj-shotbot" class="folio-item__thumb folio-item__thumb--cover">
+                    <img src="images/projects/shotbot-1.svg" alt="Shot-Bot 106 placeholder cover image">
+                    <span class="folio-item__caption">Shot-Bot 106</span>
+                </a>
+            </div>
+
+        </div> <!-- end folio-list -->
+
+        <!-- Project Modal Popups: title → description → GitHub button → photo row -->
+        <div id="modal-proj-carty" hidden>
+            <div class="modal-popup">
+                <div class="modal-popup__desc">
+                    <h5>Carty — AI-Powered Follow-Me Assistive Cart (Graduation Project II, 2025)</h5>
+                    <p>Multidisciplinary autonomous cart using Jetson Nano, YOLOv8, MediaPipe, Arduino Nano,
+                        IR/ultrasonic sensing, four wiper motors, custom PCBs and UART communication, integrating
+                        user recognition, gesture-based commands, obstacle sensing, and manual control.</p>
+                </div>
+                <a href="#" class="btn btn--primary" title="Add GitHub repo link">
+                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                </a>
+                <div class="modal-popup__photo-row">
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/carty-1.svg" alt="Carty photo 1 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/carty-2.svg" alt="Carty photo 2 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/carty-3.svg" alt="Carty photo 3 placeholder"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-proj-vawt" hidden>
+            <div class="modal-popup">
+                <div class="modal-popup__desc">
+                    <h5>Vertical Axis Wind Turbine (VAWT) (Graduation Project I, 2024)</h5>
+                    <p>Designed, simulated and fabricated a small-scale VAWT by comparing multiple NACA airfoils in
+                        QBlade, selecting NACA 0018, developing the mechanical design in SolidWorks, and building a
+                        physical prototype.</p>
+                </div>
+                <a href="#" class="btn btn--primary" title="Add GitHub repo link">
+                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                </a>
+                <div class="modal-popup__photo-row">
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/vawt-1.svg" alt="VAWT photo 1 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/vawt-2.svg" alt="VAWT photo 2 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/vawt-3.svg" alt="VAWT photo 3 placeholder"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-proj-carwash" hidden>
+            <div class="modal-popup">
+                <div class="modal-popup__desc">
+                    <h5>Smart PLC-Powered Automated Car Wash (2024/2025)</h5>
+                    <p>Programmed a complete automated car-wash sequence for a Siemens S7-300 PLC in TIA Portal using
+                        Ladder Logic, coordinating vehicle sensors, pumps, valves, bidirectional motion, analog
+                        pressure measurement, timers, counters, alarms and blower-based drying.</p>
+                </div>
+                <a href="#" class="btn btn--primary" title="Add GitHub repo link">
+                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                </a>
+                <div class="modal-popup__photo-row">
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/car-wash-1.svg" alt="Car wash photo 1 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/car-wash-2.svg" alt="Car wash photo 2 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/car-wash-3.svg" alt="Car wash photo 3 placeholder"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-proj-classiccontrol" hidden>
+            <div class="modal-popup">
+                <div class="modal-popup__desc">
+                    <h5>Classic Control & PLC Diploma</h5>
+                    <p>Designed and simulated industrial electrical-control circuits in CADe_SIMU and developed PLC
+                        Ladder Logic in LogixPro, covering contactors, interlocking, motor sequencing, timers,
+                        counters, one-shots, forward/reverse control and simulated industrial processes such as
+                        batch mixing.</p>
+                </div>
+                <a href="#" class="btn btn--primary" title="Add GitHub repo link">
+                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                </a>
+                <div class="modal-popup__photo-row">
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/classic-control-plc-1.svg" alt="Classic Control & PLC Diploma photo 1 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/classic-control-plc-2.svg" alt="Classic Control & PLC Diploma photo 2 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/classic-control-plc-3.svg" alt="Classic Control & PLC Diploma photo 3 placeholder"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-proj-mechatronic" hidden>
+            <div class="modal-popup">
+                <div class="modal-popup__desc">
+                    <h5>Multi-Domain Mechatronic Systems Modeling & Simulation</h5>
+                    <p>Modeled mechanical, electrical and hydraulic dynamic systems from governing equations using
+                        MATLAB, Simulink and Simscape, including a 2-DOF mass-spring-damper system, a third-order
+                        electrical circuit, and a three-state hydraulic system.</p>
+                </div>
+                <a href="#" class="btn btn--primary" title="Add GitHub repo link">
+                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                </a>
+                <div class="modal-popup__photo-row">
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/mechatronic-sim-1.svg" alt="Mechatronic simulation photo 1 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/mechatronic-sim-2.svg" alt="Mechatronic simulation photo 2 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/mechatronic-sim-3.svg" alt="Mechatronic simulation photo 3 placeholder"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-proj-shotbot" hidden>
+            <div class="modal-popup">
+                <div class="modal-popup__desc">
+                    <h5>Shot-Bot 106 — Motion-Controlled CNC / Basketball Training System</h5>
+                    <p>Project combining motion control, CNC concepts, voice-command functionality, and a
+                        three-speed gearbox, with mechanical design and prototyping in SolidWorks.</p>
+                </div>
+                <a href="#" class="btn btn--primary" title="Add GitHub repo link">
+                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                </a>
+                <div class="modal-popup__photo-row">
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/shotbot-1.svg" alt="Shot-Bot 106 photo 1 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/shotbot-2.svg" alt="Shot-Bot 106 photo 2 placeholder"></span>
+                    <span class="modal-popup__photo-wrap"><img class="modal-popup__photo" src="images/projects/shotbot-3.svg" alt="Shot-Bot 106 photo 3 placeholder"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="s-portfolio target-section">
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>Training & Certifications</h3>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="column">
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-advanced-control-diploma" title="View certificate">Advanced Control Diploma — HA Consulting Group</a></h5>
+                    <p>Feb. 2025 – Apr. 2025</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-classic-control-diploma" title="View certificate">Classic Control Diploma — HA Consulting Group</a></h5>
+                    <p>Jul. 2024 - Oct. 2024</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-alx-aice" title="View certificate">ALX Africa — Artificial Intelligence Career Essentials (AiCE)</a></h5>
+                    <p>Aug. 2024 - Sep. 2024</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-eldelta-training" title="View certificate">El Delta Company for Fertilizers and Chemical Industries — On-Site Training</a></h5>
+                    <p>Jul. 2024 - Aug. 2024</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-motorsport-training" title="View certificate">Autonomous Fundamentals Training — Mansoura MOTORSPORT</a></h5>
+                    <p>Sep. 2023 - Oct. 2023</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-solidworks-course" title="View certificate">SolidWorks Course</a></h5>
+                    <p>Aug. 2023 - Dec. 2023</p>
+                </div>
+                <div class="folio-item">
+                    <h5><a href="#modal-cert-huawei-hcia-ai" title="View certificate">Huawei HCIA-AI Training — Huawei Talent in Mansoura University</a></h5>
+                    <p>Sep. 2022</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certificate Modal Popups: certificate image → short description → related-project link -->
+        <div id="modal-cert-advanced-control-diploma" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/advanced-control-diploma.svg" alt="Advanced Control Diploma certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>Advanced Control Diploma — HA Consulting Group</h5>
+                    <p>Applied advanced PLC programming and control-system principles across industrial automation
+                        projects using Siemens platforms and simulation tools.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+
+        <div id="modal-cert-classic-control-diploma" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/classic-control-diploma.svg" alt="Classic Control Diploma certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>Classic Control Diploma — HA Consulting Group</h5>
+                    <p>Covered classic electrical-control circuit design in CADe_SIMU and PLC ladder logic in
+                        LogixPro, including contactors, interlocking, and motor sequencing.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+
+        <div id="modal-cert-alx-aice" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/alx-aice.svg" alt="ALX Africa AI Career Essentials certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>ALX Africa — Artificial Intelligence Career Essentials (AiCE)</h5>
+                    <p>Career-focused training covering core AI concepts and practical generative-AI workflows.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+
+        <div id="modal-cert-eldelta-training" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/eldelta-training.svg" alt="El Delta Company on-site training certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>El Delta Company for Fertilizers and Chemical Industries — On-Site Training</h5>
+                    <p>On-site industrial training covering plant processes and control/instrumentation systems.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+
+        <div id="modal-cert-motorsport-training" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/motorsport-training.svg" alt="Mansoura MOTORSPORT training certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>Autonomous Fundamentals Training — Mansoura MOTORSPORT</h5>
+                    <p>Introductory training on autonomous-vehicle fundamentals and motorsport engineering
+                        systems.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+
+        <div id="modal-cert-solidworks-course" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/solidworks-course.svg" alt="SolidWorks course certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>SolidWorks Course</h5>
+                    <p>Online course covering part/assembly modeling, sheet-metal design, and mechanical CAD
+                        workflows.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+
+        <div id="modal-cert-huawei-hcia-ai" hidden>
+            <div class="modal-popup">
+                <img src="images/certificates/huawei-hcia-ai.svg" alt="Huawei HCIA-AI certificate placeholder">
+                <div class="modal-popup__desc">
+                    <h5>Huawei HCIA-AI Training — Huawei Talent in Mansoura University</h5>
+                    <p>Practical ML/DL labs covering regression, decision trees, CNNs and LSTMs using Python,
+                        Scikit-learn, TensorFlow and Keras.</p>
+                </div>
+                <a href="#" class="btn btn--stroke" title="Add link to related project repo">
+                    <i class="fab fa-github" aria-hidden="true"></i> Related Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (image portfolio + lightbox, matching the original StyleShout "Works" layout) -->
+    <section id="gallery" class="s-portfolio target-section">
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>Gallery</h3>
+            </div>
+        </div>
+
+        <!-- TODO: swap these placeholder thumbnails for real project photos -->
+        <div class="row collapse block-large-1-3 block-medium-1-2 block-tab-1-2 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-carty" class="folio-item__thumb">
+                    <img src="images/portfolio/carty.svg" alt="Carty — AI-Powered Follow-Me Assistive Cart placeholder image">
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-vawt" class="folio-item__thumb">
+                    <img src="images/portfolio/vawt.svg" alt="Vertical Axis Wind Turbine placeholder image">
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-carwash" class="folio-item__thumb">
+                    <img src="images/portfolio/car-wash.svg" alt="Smart PLC-Powered Automated Car Wash placeholder image">
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-classiccontrol" class="folio-item__thumb">
+                    <img src="images/portfolio/classic-control-plc.svg" alt="Classic Control & PLC Diploma placeholder image">
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-mechatronic" class="folio-item__thumb">
+                    <img src="images/portfolio/mechatronic-sim.svg" alt="Multi-Domain Mechatronic Systems Simulation placeholder image">
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="#modal-shotbot" class="folio-item__thumb">
+                    <img src="images/portfolio/shotbot.svg" alt="Shot-Bot 106 placeholder image">
+                </a>
+            </div>
+
+        </div> <!-- end folio-list -->
+
+        <!-- Gallery Modal Popups -->
+        <div id="modal-carty" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/carty.svg" alt="Carty — AI-Powered Follow-Me Assistive Cart placeholder image" />
+                <div class="modal-popup__desc">
+                    <h5>Carty — AI-Powered Follow-Me Assistive Cart</h5>
+                    <p>Multidisciplinary autonomous cart using Jetson Nano, YOLOv8, MediaPipe, Arduino Nano,
+                        IR/ultrasonic sensing, and custom PCBs for user recognition, gesture commands, and obstacle
+                        sensing.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Robotics</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+                <a href="#" class="modal-popup__details" title="Add project link">Project link</a>
+            </div>
+        </div>
+
+        <div id="modal-vawt" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/vawt.svg" alt="Vertical Axis Wind Turbine placeholder image" />
+                <div class="modal-popup__desc">
+                    <h5>Vertical Axis Wind Turbine (VAWT)</h5>
+                    <p>Designed, simulated and fabricated a small-scale VAWT, comparing NACA airfoils in QBlade and
+                        building a physical prototype from a SolidWorks mechanical design.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Mechanical Design</li>
+                        <li>Renewable Energy</li>
+                    </ul>
+                </div>
+                <a href="#" class="modal-popup__details" title="Add project link">Project link</a>
+            </div>
+        </div>
+
+        <div id="modal-carwash" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/car-wash.svg" alt="Smart PLC-Powered Automated Car Wash placeholder image" />
+                <div class="modal-popup__desc">
+                    <h5>Smart PLC-Powered Automated Car Wash</h5>
+                    <p>Complete automated car-wash sequence programmed on a Siemens S7-300 PLC in TIA Portal, with
+                        sensors, pumps, valves, timers, counters, alarms and blower-based drying.</p>
+                    <ul class="modal-popup__cat">
+                        <li>PLC Programming</li>
+                        <li>Automation</li>
+                    </ul>
+                </div>
+                <a href="#" class="modal-popup__details" title="Add project link">Project link</a>
+            </div>
+        </div>
+
+        <div id="modal-classiccontrol" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/classic-control-plc.svg" alt="Classic Control & PLC Diploma placeholder image" />
+                <div class="modal-popup__desc">
+                    <h5>Classic Control & PLC Diploma</h5>
+                    <p>Industrial electrical-control circuits simulated in CADe_SIMU and PLC ladder logic developed
+                        in LogixPro, covering contactors, interlocking, motor sequencing and batch-process
+                        simulation.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Classic Control</li>
+                        <li>PLC / Ladder Logic</li>
+                    </ul>
+                </div>
+                <a href="#" class="modal-popup__details" title="Add project link">Project link</a>
+            </div>
+        </div>
+
+        <div id="modal-mechatronic" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/mechatronic-sim.svg" alt="Multi-Domain Mechatronic Systems Simulation placeholder image" />
+                <div class="modal-popup__desc">
+                    <h5>Multi-Domain Mechatronic Systems Modeling & Simulation</h5>
+                    <p>Mechanical, electrical and hydraulic dynamic systems modeled from governing equations in
+                        MATLAB, Simulink and Simscape.</p>
+                    <ul class="modal-popup__cat">
+                        <li>MATLAB / Simulink</li>
+                        <li>Systems Modeling</li>
+                    </ul>
+                </div>
+                <a href="#" class="modal-popup__details" title="Add project link">Project link</a>
+            </div>
+        </div>
+
+        <div id="modal-shotbot" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/shotbot.svg" alt="Shot-Bot 106 placeholder image" />
+                <div class="modal-popup__desc">
+                    <h5>Shot-Bot 106</h5>
+                    <p>Motion-controlled CNC and basketball training system combining motion control, CNC concepts,
+                        voice-command functionality, and a three-speed gearbox.</p>
+                    <ul class="modal-popup__cat">
+                        <li>CNC / Motion Control</li>
+                        <li>Mechanical Design</li>
+                    </ul>
+                </div>
+                <a href="#" class="modal-popup__details" title="Add project link">Project link</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="s-contact target-section">
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps">Let's Talk</h3>
+            </div>
+        </div>
+        <div class="row s-contact__content">
+            <div class="column large-7 medium-12">
+                <!-- <h4 class="huge-text">
+                    Have a new project in mind? Let’s collaborate and build something awesome. Let's turn that idea into a great product :)
+                </h4> -->
+
+                <!-- <p id="dynamic-message"></p> -->
+                <h4 class="huge-text" id="dynamic-message"></h4>
+
+
+            </div>
+            <div class="column large-4 medium-12">
+                <div class="row contact-infos">
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">Email</h5>
+                            <p><a class="mailtoui" href="mailto:hussein.ahmed.rizk@gmail.com">hussein.ahmed.rizk@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">Phone</h5>
+                            <p><a href="tel:+4915251531407" title="Add real phone number"> +49 152 515 31407</a></p>
+                        </div>
+                    </div>
+                    <div class="column large-12">
+                        <a href="mailto:hussein.ahmed.rizk@gmail.com" id="contact-cta" class="btn btn--primary h-full-width">Let's
+                            Talk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="s-footer">
+        <div class="row">
+            <!-- TODO: replace with Hussein's real LinkedIn/GitHub URLs -->
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <li><a href="#" title="Add LinkedIn URL"><i class="fab fa-linkedin-in"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="Add GitHub URL"><i class="fab fa-github"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Hussein Rizk 2026</span>
+                <span>Design inspiration by <a href="https://www.styleshout.com/" target="_blank">StyleShout</a></span>
+            </div>
+        </div>
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
+                </svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
+
+    <!-- Full-screen Photo Viewer (opened by clicking a photo inside a project popup) -->
+    <div id="photo-viewer" class="photo-viewer" hidden>
+        <button class="photo-viewer__close" type="button" aria-label="Close photo viewer">
+            <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <button class="photo-viewer__nav photo-viewer__prev" type="button" aria-label="Previous photo">
+            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="photo-viewer__stage">
+            <img class="photo-viewer__img" src="" alt="">
+            <p class="photo-viewer__counter"></p>
+        </div>
+        <button class="photo-viewer__nav photo-viewer__next" type="button" aria-label="Next photo">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <!-- "Let's Talk" contact popup: email + phone, each with a copy button -->
+    <div id="modal-contact" hidden>
+        <div class="modal-popup">
+            <div class="modal-popup__desc">
+                <h5>Let's Talk</h5>
+                <div class="contact-popup__row">
+                    <span class="contact-popup__label">Email</span>
+                    <span class="contact-popup__value" id="contact-popup-email">hussein.ahmed.rizk@gmail.com</span>
+                    <button type="button" class="btn btn--stroke btn--small contact-popup__copy" data-copy-target="contact-popup-email">Copy</button>
+                </div>
+                <div class="contact-popup__row">
+                    <span class="contact-popup__label">Phone</span>
+                    <span class="contact-popup__value" id="contact-popup-phone"> +49 152 515 31407</span>
+                    <button type="button" class="btn btn--stroke btn--small contact-popup__copy" data-copy-target="contact-popup-phone">Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/comet-effect.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const messages = [
+                "Have a vision for your next automation project? Let’s join forces to build reliable control solutions.",
+                "Got a complex control-system challenge? Let’s collaborate to design and troubleshoot it together.",
+                "Ready to innovate? Let’s turn your ideas into impactful, automation-powered solutions.",
+                "Have a unique challenge in mind? Together, we can design tailored control systems to meet your goals.",
+                "Looking to bring your ideas to life? Let’s collaborate and build systems that truly matter.",
+                "Dream big and aim higher. Let’s work together to transform your ideas into extraordinary outcomes.",
+                "Have a robotics or automation idea? Let’s collaborate to bring it to life with intelligent control.",
+                "The future starts with an idea. Let’s work together to shape your vision into something amazing.",
+                "Got a challenge to solve? Let’s join forces to tackle it and deliver outstanding results.",
+                "Have a game-changing idea? Let’s collaborate to build impactful, automated solutions."
+            ];
+
+            // Select a random message
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+            // Insert the random message into the HTML
+            document.getElementById('dynamic-message').textContent = randomMessage;
+        });
+    </script>
+</body>
+
+</html>

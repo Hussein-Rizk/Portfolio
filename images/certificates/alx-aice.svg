@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="AI Career Essentials certificate placeholder image">
+  <rect width="640" height="480" fill="#1e1e1e"/>
+  <rect x="40" y="40" width="560" height="400" fill="none" stroke="#11ABB0" stroke-width="3"/>
+  <rect x="56" y="56" width="528" height="368" fill="none" stroke="#11ABB0" stroke-width="1" opacity="0.5"/>
+  <text x="320" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#11ABB0" letter-spacing="4">CERTIFICATE</text>
+  <text x="320" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">AI Career Essentials</text>
+  <text x="320" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#a1a3a3">ALX Africa</text>
+  <text x="320" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#636565" letter-spacing="1">PLACEHOLDER — REPLACE WITH REAL CERTIFICATE SCAN</text>
+</svg>
